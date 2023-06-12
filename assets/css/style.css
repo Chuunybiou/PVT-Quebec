@@ -1,0 +1,177 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* hauteur de l'écran */
+    height: 100vh;
+    background: url('../../ressources/foretlumdown.jpg');
+    background-repeat: no-repeat;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif
+}
+h2{
+    font-size: 20px;
+}
+.p-index{
+    color: white;
+}
+/* pagination */
+.center {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: inline-block;
+    margin-top: 10px;
+   margin-bottom: 30px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    background-color: white;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #09e626;}
+  /* .//. */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.container-first {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+
+
+h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    color: #f1f1f1;
+    font-family: Abril fatface, sans-serif;
+}
+
+.span1 {
+    cursor: pointer;
+}
+
+.container-btns {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.btn-first {
+    border: 2px solid #f1f1f1;
+    margin-bottom: 10px;
+    background: transparent;
+    font-size: 30px;
+    padding: 20px;
+    width: 280px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn-first {
+    margin-right: 30px;
+}
+
+.btn-first:hover {
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333;
+}
+
+.lignes {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+
+.l1 {
+    width: 250px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.l2 {
+    width: 140px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.logo {
+    position: absolute;
+    right: 2.9%;
+    top: 4%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.medias {
+    position: absolute;
+    right: 3.3%;
+    top: 37%;
+}
+
+.bulle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* active les paramètres de placement */
+    display: flex;
+    /* horizontal */
+    justify-content: center;
+    /* vertical */
+    align-items: center;
+    /* 10px autour & 0px à gauche */
+    margin: 10px 0px;
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+/* taille des logos de droite */
+.logo-medias {
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 30px;
+    }
+
+}
